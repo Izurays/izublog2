@@ -1,0 +1,29 @@
+{
+  "name": "izublog2",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Onyeocha Izunna Chideb",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.30.1",
+    "dompurify": "^2.3.8",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsdom": "^20.0.0",
+    "marked": "^4.0.17",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
